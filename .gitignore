@@ -1,0 +1,32 @@
+# .gitignore for Python
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration file (useful for debugging)
+*.ini
+
+# Python distributions
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+
+# IDE files
+.vscode/
+*.code-workspace
+*.code-workspace.backup
+
+# Environment variables file
+.env
+
+# Compiled Python files
+*.pyc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
